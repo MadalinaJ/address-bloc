@@ -9,7 +9,9 @@ const inquirer = require('inquirer');
           message: "Please choose from an option below: ",
           choices: [
             "Add new contact",
+            "Get date"
             "Exit"
+
           ]
         }
       ];
