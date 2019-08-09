@@ -25,7 +25,7 @@ const inquirer = require('inquirer');
         case "Add new contact":
           this.addContact();
           break;
-        case "Get current time and date":
+        case "Get date":
           this.getDate();
           break;
         case "Exit":
@@ -58,6 +58,7 @@ const inquirer = require('inquirer');
   }
 
   exit(){
+    
     console.log("Thanks for using AddressBloc!");
     process.exit();
   }
